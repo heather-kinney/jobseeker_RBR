@@ -1,49 +1,114 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Jordan Smith | Professional Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Seeker Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root {
+      --neutral-color: #f4f4f4;
+      --accent-color: #2e5d45; /* Forest Green */
+      --text-color: #333;
+      --header-font: 'Helvetica Neue', sans-serif;
+      --body-font: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--body-font);
+      background-color: var(--neutral-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: white;
+      border-bottom: 2px solid var(--accent-color);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: var(--header-font);
+      color: var(--accent-color);
+      font-size: 2rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--accent-color);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: var(--accent-color);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #eaeaea;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header class="hero">
-            <img src="assets/images/profile.jpg" alt="Jordan Smith" class="profile-img"/>
-            <h1>Jordan Smith</h1>
-            <p class="tagline">Data Analyst | Open to Work</p>
-        </header>
+  <header>
+    <h1>Job Seeker Portfolio</h1>
+    <p>Modern, professional websites to support your next opportunity.</p>
+    <nav>
+      <ul>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section id="about" class="card">
-            <h2>About Me</h2>
-            <p>I’m a detail-oriented data analyst with a passion for turning data into actionable insights. I’m currently seeking full-time roles in data science, analytics, or research.</p>
-        </section>
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Highlight your experience, education, and key accomplishments here. Link to a downloadable PDF or embed content directly.</p>
+  </section>
 
-        <section id="resume" class="card">
-            <h2>Résumé Highlights</h2>
-            <ul>
-                <li>3 years experience in data analysis and reporting</li>
-                <li>Skilled in Python, R, SQL, and Tableau</li>
-                <li>Strong background in environmental science and public policy</li>
-                <li><a href="assets/docs/resume.pdf" target="_blank">Download Full Résumé</a></li>
-            </ul>
-        </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Include a few projects that show your skills and what you’re passionate about. Use clear, minimal layouts and direct links or images.</p>
+  </section>
 
-        <section id="projects" class="card">
-            <h2>Projects</h2>
-            <p>Coming soon: Featured work in analytics and visualization.</p>
-        </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Ready to connect? Fill out the form or send a message.</p>
+    <a href="mailto:your.email@example.com" class="button">Email Me</a>
+  </section>
 
-        <section id="contact" class="card">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:jordan.smith@email.com">jordan.smith@email.com</a></p>
-            <p>LinkedIn: <a href="#">linkedin.com/in/jordansmith</a></p>
-        </section>
-
-        <footer>
-            <p>&copy; 2025 Jordan Smith</p>
-        </footer>
-    </div>
+  <footer>
+    <p>&copy; 2025 Job Seeker Portfolio</p>
+  </footer>
 </body>
 </html>
