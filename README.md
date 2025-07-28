@@ -1,6 +1,6 @@
 # Portfolio_template_jobseeker
 Option 1 for professional page
-# Jordan Smith | Professional Portfolio
+# Ryan Rezendes | Professional Portfolio
 
 This is a starter HTML/CSS template for a job seeker portfolio. It's designed for users who want a simple, modern, and effective one-page website to showcase their résumé, projects, and contact information.
 
@@ -12,7 +12,7 @@ This is a starter HTML/CSS template for a job seeker portfolio. It's designed fo
 - Contact Info
 
 ## Live Preview
-https://heather-kinney.github.io/Portfolio_template_jobseeker/
+
 
 ## Customization
 
